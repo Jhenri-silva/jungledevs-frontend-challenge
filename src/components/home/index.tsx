@@ -1,9 +1,15 @@
+import { Meta } from "@/layout/Meta";
+import { AppConfig } from "@/utils/AppConfig";
+import { Hero, Banner, Footer, Feature } from "@c/index";
 
-const Home = () => {
+const Home = () => (
+  <div className="antialiased text-gray-600">
+    <Meta title={AppConfig.title} description={AppConfig.description} />
+    <Hero />
+    <Feature />
+    <Banner />
+    <Footer />
+  </div>
+);
 
-    return <div>
-        Ok
-    </div>
-}
-
-export default Home
+export default Home;

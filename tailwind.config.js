@@ -17,6 +17,11 @@ module.exports = {
     },
     extend: {
       colors: {
+        brand: {
+          primary: '#00A870',
+          secondary: '#5E20A4',
+          background: '#F2F2F2'
+        },
         primary: {
           100: '#E6F6FE',
           200: '#C0EAFC',
