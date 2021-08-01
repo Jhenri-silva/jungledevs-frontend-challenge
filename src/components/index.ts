@@ -7,6 +7,7 @@ import Feature from "@c/feature";
 import Navbar from "@c/navbar";
 import Image from "@c/image";
 import Button from "@c/button";
+import TextField from "@c/textFieldInput";
 
 export {
   Button,
@@ -18,4 +19,5 @@ export {
   Feature,
   Navbar,
   Image,
+  TextField,
 };
