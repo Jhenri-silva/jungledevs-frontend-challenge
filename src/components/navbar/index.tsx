@@ -16,7 +16,7 @@ const Navbar = (props: INavbarProps) => (
       <Link href="/">
         <a>{props.logo}</a>
       </Link>
-      <nav>
+      <nav className="sm:mx-8">
         <ul
           style={{ listStyle: "none" }}
           className="navbar flex items-center font-medium text-xl text-gray-800"
