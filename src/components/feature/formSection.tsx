@@ -1,7 +1,7 @@
 import { AppConfig } from "@/utils/AppConfig";
 import { TextField, Button } from "..";
 
-export default function PaymentSection() {
+export default function FormSection() {
   return (
     <section className="text-gray-title text-center mx-8">
       <h3 className="font-medium my-4">{AppConfig.call_to_action_title}</h3>
