@@ -3,6 +3,7 @@ import FormSection from "./formSection";
 import MainSection from "./mainSection";
 import PaymentSection from "./paymentSection";
 import FurtherInfoSection from "./furtherInfoSection";
+import ComingSoonSection from "./comingSoonSection";
 
 export default function Feature() {
   return (
@@ -18,6 +19,9 @@ export default function Feature() {
       </article>
       <article>
         <FurtherInfoSection />
+      </article>
+      <article>
+        <ComingSoonSection />
       </article>
     </main>
   );
