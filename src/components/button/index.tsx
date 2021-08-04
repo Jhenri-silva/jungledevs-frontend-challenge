@@ -5,6 +5,7 @@ interface Props {
   onClick?: () => void;
   transparent?: boolean;
   overrideTailwindProps?: string;
+  fontblack?: boolean;
 }
 
 export default function Button(props: Props) {
@@ -12,8 +13,9 @@ export default function Button(props: Props) {
     <button
       {...props}
       className={`${!props.transparent && "bg-brand-primary"}
-                rounded-sm
-                text-white
+      rounded-sm
+      text-white
+      ${props.fontblack && "text-gray-title"}
                 text-xs
                 p-3
                 font-medium

@@ -35,6 +35,7 @@ module.exports = {
         },
         gray: {
           title: "#3D3D3D",
+          divider: "#DFDFDF",
           description: "#4A4A4A",
           200: "#edf2f7",
           300: "#e2e8f0",
