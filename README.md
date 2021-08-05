@@ -41,3 +41,16 @@ yarn build
 ```
 yarn start
 ```
+### comments
+Acomplisments of tasks on the test:
+
+JSX; 👌
+Components, props and state; 👌
+Lifecycle Methods; 👌
+Responsive design with CSS media-queries; 👌
+API calls;  👎
+Error handling; 👌
+Loading states; 👎
+SEO & accessibility; 👌
+A/B tests; 👎
+Production builds. 👌
