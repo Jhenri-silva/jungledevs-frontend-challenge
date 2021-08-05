@@ -7,7 +7,7 @@ Typescript
 
 ### Requirements
 
-- Node.js and npm
+-   Node.js LTS and npm
 
 ### Getting started
 
@@ -21,4 +21,11 @@ or
 
 ```
 yarn
+```
+
+### to Build
+
+```
+yarn build
+
 ```

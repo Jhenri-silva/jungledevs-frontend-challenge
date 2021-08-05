@@ -6,11 +6,13 @@ interface Props {
     transparent?: boolean
     overrideTailwindProps?: string
     fontblack?: boolean
+    type?: string
 }
 
 export default function Button(props: Props) {
     return (
         <button
+            // @ts-ignore
             type="button"
             {...props}
             className={`${!props.transparent && 'bg-brand-primary'}
