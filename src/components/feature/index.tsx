@@ -6,8 +6,8 @@ import PaymentSection from './paymentSection'
 
 const components = [
     MainSection,
-    PaymentSection,
     FormSection,
+    PaymentSection,
     FurtherInfoSection,
     ComingSoonSection,
 ]
