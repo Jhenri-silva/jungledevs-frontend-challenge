@@ -1,5 +1,5 @@
-import HomeScreen from "../components/home";
+import HomeScreen from '../components/home'
 
-const Index = () => <HomeScreen />;
+const Index = () => <HomeScreen />
 
-export default Index;
+export default Index
