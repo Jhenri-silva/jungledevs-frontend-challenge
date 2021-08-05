@@ -7,7 +7,7 @@ import { Meta } from '@/layout/Meta'
 import { AppConfig } from '@/utils/AppConfig'
 
 const Home = () => (
-    <div className="antialiased text-gray-600">
+    <div className="antialiased text-gray-600 min-w-min">
         <Meta title={AppConfig.title} description={AppConfig.description} />
         <Hero />
         <Feature />

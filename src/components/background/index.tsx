@@ -33,6 +33,7 @@ const Background = (props: IBackgroundProps) => (
                     min-height: 500px;
                     z-index: -1;
                     @apply bg-brand-secondary;
+                    min-width: 385px;
                 }
             `}
         </style>
