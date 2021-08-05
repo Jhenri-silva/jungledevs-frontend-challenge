@@ -1,9 +1,8 @@
 ### Features
 
-Nextjs
-Tailwind CSS
-Babel
-Typescript
+- Nextjs (Typescript)
+- Tailwind CSS
+- Babel
 
 ### Requirements
 
