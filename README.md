@@ -44,7 +44,7 @@ yarn start
 ### comments
 Acomplisments of tasks on the test:
 
-JSX; 👌
+-   JSX; 👌
 -   Components, props and state; 👌
 -   Lifecycle Methods; 👌
 -   Responsive design with CSS media-queries; 👌
